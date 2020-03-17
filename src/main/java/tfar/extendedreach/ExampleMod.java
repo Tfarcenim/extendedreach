@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package tfar.extendedreach;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -11,4 +11,7 @@ public class ExampleMod implements ModInitializer {
 
 		System.out.println("Hello Fabric world!");
 	}
+
+	public static double reach = 64;
+
 }

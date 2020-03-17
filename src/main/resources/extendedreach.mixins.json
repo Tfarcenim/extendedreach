@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "tfar.extendedreach.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ClientPlayerInteractionManagerMixin",
+    "GameRendererMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
